@@ -6,12 +6,33 @@ package com.bank.taskallocationexample;
 
 public class Assignment implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public Assignment() {
-    }
+	private java.lang.String actor;
+	private java.lang.String role;
 
+	public Assignment() {
+	}
 
+	public java.lang.String getActor() {
+		return this.actor;
+	}
 
+	public void setActor(java.lang.String actor) {
+		this.actor = actor;
+	}
+
+	public java.lang.String getRole() {
+		return this.role;
+	}
+
+	public void setRole(java.lang.String role) {
+		this.role = role;
+	}
+
+	public Assignment(java.lang.String actor, java.lang.String role) {
+		this.actor = actor;
+		this.role = role;
+	}
 
 }
