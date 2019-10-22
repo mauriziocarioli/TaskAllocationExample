@@ -4,6 +4,9 @@ import java.lang.Number;
 
 rule "Assign Task to Myriam"
 	dialect "mvel"
+	ruleflow-group "taskassignment"
 	when
+		assignment : Assignment( )
 	then
+		assignment.setActor( "Myriam" );
 end
