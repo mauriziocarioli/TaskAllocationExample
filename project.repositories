@@ -27,8 +27,40 @@
     <repository>
       <include>true</include>
       <metadata>
+        <id>local</id>
+        <url>/Users/mcarioli/.m2/repository</url>
+        <source>LOCAL</source>
+      </metadata>
+    </repository>
+    <repository>
+      <include>true</include>
+      <metadata>
+        <id>jboss-developer-repository</id>
+        <url>http://jboss-developer.github.io/temp-maven-repo/</url>
+        <source>SETTINGS</source>
+      </metadata>
+    </repository>
+    <repository>
+      <include>true</include>
+      <metadata>
         <id>redhat-ga-repository</id>
         <url>http://maven.repository.redhat.com/ga/</url>
+        <source>SETTINGS</source>
+      </metadata>
+    </repository>
+    <repository>
+      <include>true</include>
+      <metadata>
+        <id>redhat-fuse-repository</id>
+        <url>file:///Users/mcarioli/Development/redhat-fuse-7.0.1.CR5-maven-repository/maven-repository</url>
+        <source>SETTINGS</source>
+      </metadata>
+    </repository>
+    <repository>
+      <include>true</include>
+      <metadata>
+        <id>geo</id>
+        <url>http://repo.boundlessgeo.com/main/</url>
         <source>SETTINGS</source>
       </metadata>
     </repository>
@@ -59,25 +91,17 @@
     <repository>
       <include>true</include>
       <metadata>
-        <id>local</id>
-        <url>/Users/mcarioli/.m2/repository</url>
-        <source>LOCAL</source>
-      </metadata>
-    </repository>
-    <repository>
-      <include>true</include>
-      <metadata>
-        <id>ba-repository</id>
-        <url>file:///Users/mcarioli/Dependencies/jboss-rhba-7.4.1.GA-maven-repository/maven-repository</url>
-        <source>SETTINGS</source>
-      </metadata>
-    </repository>
-    <repository>
-      <include>true</include>
-      <metadata>
         <id>central</id>
         <url>https://repo.maven.apache.org/maven2</url>
         <source>PROJECT</source>
+      </metadata>
+    </repository>
+    <repository>
+      <include>true</include>
+      <metadata>
+        <id>jboss-ga-plugin-repository</id>
+        <url>http://maven.repository.redhat.com/techpreview/all</url>
+        <source>SETTINGS</source>
       </metadata>
     </repository>
     <repository>
@@ -99,40 +123,8 @@
     <repository>
       <include>true</include>
       <metadata>
-        <id>ba-plugin-repository</id>
-        <url>file:///Users/mcarioli/Development/jboss-rhba-7.4.1.GA-maven-repository/maven-repository</url>
-        <source>SETTINGS</source>
-      </metadata>
-    </repository>
-    <repository>
-      <include>true</include>
-      <metadata>
-        <id>jboss-ga-plugin-repository</id>
-        <url>http://maven.repository.redhat.com/techpreview/all</url>
-        <source>SETTINGS</source>
-      </metadata>
-    </repository>
-    <repository>
-      <include>true</include>
-      <metadata>
-        <id>geo</id>
-        <url>http://repo.boundlessgeo.com/main/</url>
-        <source>SETTINGS</source>
-      </metadata>
-    </repository>
-    <repository>
-      <include>true</include>
-      <metadata>
-        <id>redhat-fuse-repository</id>
-        <url>file:///Users/mcarioli/Development/redhat-fuse-7.0.1.CR5-maven-repository/maven-repository</url>
-        <source>SETTINGS</source>
-      </metadata>
-    </repository>
-    <repository>
-      <include>true</include>
-      <metadata>
-        <id>jboss-developer-repository</id>
-        <url>http://jboss-developer.github.io/temp-maven-repo/</url>
+        <id>jboss-fuse-repository</id>
+        <url>https://repo.fusesource.com/nexus/content/groups/public/</url>
         <source>SETTINGS</source>
       </metadata>
     </repository>
@@ -147,8 +139,16 @@
     <repository>
       <include>true</include>
       <metadata>
-        <id>jboss-fuse-repository</id>
-        <url>https://repo.fusesource.com/nexus/content/groups/public/</url>
+        <id>ba-repository</id>
+        <url>file:///Users/mcarioli/Dependencies/jboss-rhba-7.4.1.GA-maven-repository/maven-repository</url>
+        <source>SETTINGS</source>
+      </metadata>
+    </repository>
+    <repository>
+      <include>true</include>
+      <metadata>
+        <id>ba-plugin-repository</id>
+        <url>file:///Users/mcarioli/Development/jboss-rhba-7.4.1.GA-maven-repository/maven-repository</url>
         <source>SETTINGS</source>
       </metadata>
     </repository>
