@@ -4,6 +4,9 @@ import java.lang.Number;
 
 rule "Assign Actor"
 	dialect "mvel"
+	ruleflow-group "taskassignment"
 	when
+		processInstance : WorkflowProcessInstance()
 	then
+		processInstance.setVariable("pActor","Myriam");
 end
