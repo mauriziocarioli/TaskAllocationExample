@@ -1,0 +1,9 @@
+package com.redhat.batigerteam.taskallocationexample;
+
+import java.lang.Number;
+
+rule "Assign Actor"
+	dialect "mvel"
+	when
+	then
+end
