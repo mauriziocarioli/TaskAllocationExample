@@ -6,7 +6,6 @@ rule "Assign Actor"
 	dialect "mvel"
 	ruleflow-group "taskassignment"
 	when
-		processInstance : WorkflowProcessInstance()
 	then
-		processInstance.setVariable("pActor","Myriam");
+		drools.getContext(org.kie.api.runtime.process.ProcessContext.class).setVariable("pActor","Myriam");
 end
