@@ -34,5 +34,10 @@ public class Assignment implements java.io.Serializable {
 		this.actor = actor;
 		this.role = role;
 	}
+	
+	@Override
+	public toString() {
+	    return "\n{\"actor\": \""+actor+"\", \"role:\""+role+"\"}\n";
+	}
 
 }
