@@ -37,7 +37,7 @@ public class Assignment implements java.io.Serializable {
 	
 	@Override
 	public String toString() {
-	    return "\n{\"actor\": \""+actor+"\", \"role:\""+role+"\"}\n";
+	    return "\n{\"actor\": \""+actor+"\", \"role:\" "+role+"\"}\n";
 	}
 
 }
