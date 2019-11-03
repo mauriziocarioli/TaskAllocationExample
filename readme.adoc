@@ -2,25 +2,21 @@
 
 This demo assumes that Red Hat PAM is deployed on Red Hat EAP.
 
-This demo requires 
-
 Use the script in src/sh to add the users and groups required by the demo.
 
 Deploy the process.
 
 Start the process.
 
-Login as Bob
-Delegate to Brenda
+== Scenario
 
-Login as Brenda
-Complete task
-
-Login as Albert
-Complete task
-
-Login as Mandy
-Complete task
-
-Login as Myriam
-Complete task
+* Login as Bob
+* Delegate to Brenda
+* Login as Brenda
+* Complete task
+* Login as Albert
+* Complete task
+* Login as Mandy
+* Complete task
+* Login as Myriam
+* Complete task
